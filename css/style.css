@@ -1,0 +1,35 @@
+#div1, #div2{
+  float: left;
+  width: 100px;
+  height: 45px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+#div3 {
+  float: left;
+  width: 100vw;
+  height: 45px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  font-size: larger;
+}
+
+div div:hover{
+  background-color: rgb(109, 112, 112);
+}
+
+#organizar {
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family:monospace;
+}
+
+div img{width: 100px; height: 40px;}

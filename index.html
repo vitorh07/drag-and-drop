@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>Drag and Drop</title>
+</head>
+<body>
+    <center><h1>Relacione as instituições de acordo com a descrição:</h1></center><br><br>
+    <!--PRIMEIRO-->
+    <div id="organizar">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="/img/sesi2.png" draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31">
+        </div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3">Uma de suas ações é estabelecer parcerias com órgãos públicos ou entidades sociais para oferecerem juntos programas de educação profissional por meio do Programa Comunitário de Formação Profissional (PCFP).</div>
+    </div><br><br>
+    <!--SEGUNDO-->
+    <div id="organizar">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/senai.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+        </div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3">É uma entidade criada para facilitar o diálogo do setor industrial com diferentes representantes do governo, sociedade e classe industrial.</div>
+    </div><br><br>
+    <!--TERCEIRO-->
+    <div id="organizar">
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/fiesp.png" draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31">
+        </div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3">Tem como missão promover a educação para o desenvolvimento humano, ampliando oportunidades para melhoria dos padrões de vida dos trabalhadores da indústria, seus dependentes e sociedade em geral.</div>
+    </div>
+</body>
+</html>
